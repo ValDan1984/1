@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     width: 360px;
     margin: auto;
 
-
 }
 
 
@@ -76,7 +75,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .accent-span {
-    font-family: "Inter regylar";
+    font-family: "EB Garamon medium";
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
@@ -96,9 +95,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .intro {
-    padding: 0px;
-    
+    padding: 0 20px;
+    height: 453px;
 
+}
+
+.intro_heading {
+    font-family: "Inter regylar";
 }
 
 .reason {
