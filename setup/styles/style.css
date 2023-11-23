@@ -1,0 +1,119 @@
+body {
+    margin: auto;
+    background-color: blue;
+    font-family: "EB Garamon medium";
+
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+
+}
+
+.content-section {
+    box-sizing: border-box;
+    width: 360px;
+    margin: auto;
+
+
+}
+
+
+
+.content-section_theme_dark {
+    background-color: black;
+    color: white;
+
+}
+
+.content-section_theme_bright {
+    background-color: yellow;
+    color: black;
+
+}
+
+.header {
+    padding: 24px 20px;
+    height: 132px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 168px;
+
+}
+
+.header_logo-image {
+    width: 72px;
+    align-self: start;
+
+}
+
+.header_menu-list {
+    list-style: none;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.cover {
+    padding-left: 0px;
+    background-image: url(../images/cover.svg);
+    min-height: 221px;
+    background-size: 95% auto;
+    background-position: 20px 23px;
+    background-repeat: no-repeat;
+    
+
+}
+
+.cover_title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+
+.accent-span {
+    font-family: "Inter regylar";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.text-center {
+    margin-left: 46px;
+    
+
+}
+
+.text-right {
+    margin-left: 154px;
+    margin-top: -10px;
+
+}
+
+.intro {
+    padding: 0px;
+    
+
+}
+
+.reason {
+    padding: 40px 20px;
+    
+
+}
+
+.how-to {
+   padding: 0;
+    
+}
+
+.footer {
+    padding: 20px;
+    
+
+}
