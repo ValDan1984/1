@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.326);
     font-family: "EB Garamond";
 
 }
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .header {
     padding: 24px 20px;
-    height: 132px;
+    height: 139px;
     display: flex;
     justify-content: space-around;
     column-gap: 168px;
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .cover {
     padding-left: 0px;
     background-image: url(../images/cover.svg);
-    min-height: 221px;
+    min-height: 251px;
     background-size: 95% auto;
     background-position: 20px 23px;
     background-repeat: no-repeat;
@@ -73,7 +73,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    margin-top: 7px;
     flex-shrink: 0;
     
 }
@@ -89,20 +88,15 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .text-center {
     margin-left: 46px;
-
-
 }
 
 .text-right {
     margin-left: 154px;
-
-
 }
 
 .intro {
     padding: 0 20px;
     height: 453px;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 24px;
