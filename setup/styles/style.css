@@ -103,24 +103,53 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     padding: 0 20px;
     height: 453px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    flex-shrink: 0;
 
 }
 
 .intro_heading {
     display: flex;
-    flex-direction: column;
+    width: 320px;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 12px;
     
 }
 
 .intro_title {
-    font-family: "Inter", serif;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
+    width: 203px;
+    flex-shrink: 0;
 
+}
+
+.intro_date {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.intro_main-text {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    width: 320px;
+
+}
+
+.first {
+    height: 281px;
 }
 
 .reason {
