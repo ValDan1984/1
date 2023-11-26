@@ -1,7 +1,7 @@
 body {
     margin: auto;
     background-color: blue;
-    font-family: "EB Garamon";
+    font-family: "EB Garamond";
 
 }
 
@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     margin: auto;
 
 }
-
 
 
 .content-section_theme_dark {
@@ -38,11 +37,13 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     display: flex;
     justify-content: space-around;
     column-gap: 168px;
+    width: 360px;
+
 
 }
 
 .header_logo-image {
-    width: 72px;
+    width: 78px;
     align-self: start;
 
 }
@@ -53,6 +54,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 19.2px;
+    font-family: "Inter";
 }
 
 
@@ -63,7 +66,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     background-size: 95% auto;
     background-position: 20px 23px;
     background-repeat: no-repeat;
-    
 
 }
 
@@ -71,40 +73,54 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    margin-top: 7px;
+    flex-shrink: 0;
     
 }
 
 .accent-span {
-    font-family: "EB Garamon", serif;
+    font-family: "EB Garamond", serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
+    line-height: 100%;
 
 }
 
 .text-center {
     margin-left: 46px;
-    
+
 
 }
 
 .text-right {
     margin-left: 154px;
-    margin-top: -10px;
+
 
 }
 
 .intro {
     padding: 0 20px;
     height: 453px;
+    margin-top: 30px;
 
 }
 
 .intro_heading {
-    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    
+}
+
+.intro_title {
+    font-family: "Inter", serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: ;
+    font-weight: 400;
+    line-height: 120%;
+
 }
 
 .reason {
