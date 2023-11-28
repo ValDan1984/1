@@ -39,7 +39,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     column-gap: 168px;
     width: 360px;
 
-
 }
 
 .header_logo-image {
@@ -147,9 +146,70 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .reason {
+    display: flex;
     padding: 40px 20px;
-    
+    height: 1368px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+}
 
+.content-section_subtitle {
+    width: 320px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accent-span-2 {
+    font-family: "EB Garamond", serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%;
+}
+
+.text-right-2 {
+    text-align: right;
+}
+
+.content-section_introduction {
+    width: 320px;
+    height: 297px;
+    flex-shrink: 0;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.content-section_list {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    align-items: end;
+    gap: 16px;
+}
+
+.content-section_list-item {
+    flex: 1 0 0;
+    width: 304px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+
+}
+
+.content-section_list-accent {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21.6px;
 }
 
 .how-to {
