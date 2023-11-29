@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .intro {
     padding: 0 20px;
-    height: 453px;
+    height: 491px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -176,7 +176,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .content-section_introduction {
     width: 320px;
-    height: 297px;
     flex-shrink: 0;
     font-family: "Inter";
     font-size: 20px;
@@ -213,12 +212,114 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .how-to {
-   padding: 0;
+    display: flex;
+    padding: 40px 20px 60px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    list-style: none;
+}
+
+.card {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 319px;
+}
+
+.card_autor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.card_theme_dark {
+    border-radius: 30px;
+    background: var(--gray-bg, #343434);
+    color: white;
+}
+
+.card_theme_bright {
+    border-radius: 30px;
+    background: var(--yellow-bg, #fee42a);
+    color: black;
+}
+
+.card_autor-photo {
+    height: 100px;
+    width: 100px;
     
+}
+
+.card_autor-name {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.card_title {
+    font-family: "EB Garamond";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+}
+
+.card_text {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+
 }
 
 .footer {
     padding: 20px;
-    
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--yellow-bg, #fee42a);
+}
 
+.footer_copy {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+}
+
+.footer_links {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
 }
